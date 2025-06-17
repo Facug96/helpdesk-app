@@ -15,11 +15,6 @@ Es una aplicación pensada como práctica profesional, modular y extensible.
 - Tokens con expiración, generados con `python-jose`
 - Middleware que protege rutas automáticamente
 
-### 🔐 Protección de rutas
-- Implementación de `get_current_user()` para verificar token
-- Endpoint `/mytasks` que devuelve los datos del usuario autenticado
-- Comprobación automática de token válido o vencido (`401 Unauthorized` si no se envía o es inválido)
-
 ### 🧱 Modelo de usuarios
 Cada usuario tiene:
 - `username`
